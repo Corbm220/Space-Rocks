@@ -14,7 +14,9 @@ instance_destroy()
 	new_asteroid.sprite_index = spr_asteroid_small
 	}
 		}
-		instance_create_layer()
+	repeat(10) {
+		instance_create_layer(x,y,"Instances",obj_debris)
+	}
 }
 
 
