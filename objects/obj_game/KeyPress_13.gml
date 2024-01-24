@@ -13,6 +13,3 @@ switch(room){
 	}
 }
 
-
-if (score >= 1000){
-

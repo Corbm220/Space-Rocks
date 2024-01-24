@@ -9,7 +9,7 @@ switch(room){
 	var c = c_yellow
 	draw_set_halign(fa_center);
 	draw_text_transformed_color(
-	room_width/2, 100, "SPACE ROCKS", 3, 3, 0, c,c,c,c, 1
+	room_width/2, 100, "SPACE ROCKS", 4, 4, 0, c,c,c,c, 1
 	);
 	draw_text(room_width/2, 200, 
 	@"Score 1000 points to win!
