@@ -1,4 +1,8 @@
 /// @desc ??
+if (room != rm_game){
+	exit;	
+}
+
 if (choose(0,1) == 0){
 // go down the sides	
 	var xx = choose(0,room_width);
@@ -12,3 +16,5 @@ else{
 }
 
 instance_create_layer(xx,yy, "Instances", obj_asteroid)
+
+alarm[0] = 4*room_speed;
